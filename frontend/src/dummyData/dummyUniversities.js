@@ -1,0 +1,123 @@
+export const dummyUniversities = [
+  {
+    key: '1',
+    universityName: 'Harvard University',
+    country: 'USA',
+    createdAt: '2024-03-18',
+  },
+  {
+    key: '2',
+    universityName: 'Stanford University',
+    country: 'USA',
+    createdAt: '2024-03-19',
+  },
+  {
+    key: '3',
+    universityName: 'Massachusetts Institute of Technology (MIT)',
+    country: 'USA',
+    createdAt: '2024-03-20',
+  },
+  {
+    key: '4',
+    universityName: 'California Institute of Technology (Caltech)',
+    country: 'USA',
+    createdAt: '2024-03-21',
+  },
+  {
+    key: '5',
+    universityName: 'University of Oxford',
+    country: 'UK',
+    createdAt: '2024-03-22',
+  },
+  {
+    key: '6',
+    universityName: 'University of Cambridge',
+    country: 'UK',
+    createdAt: '2024-03-23',
+  },
+  {
+    key: '7',
+    universityName: 'University of California, Berkeley (UCB)',
+    country: 'USA',
+    createdAt: '2024-03-24',
+  },
+  {
+    key: '8',
+    universityName: 'Princeton University',
+    country: 'USA',
+    createdAt: '2024-03-25',
+  },
+  {
+    key: '9',
+    universityName: 'Yale University',
+    country: 'USA',
+    createdAt: '2024-03-26',
+  },
+  {
+    key: '10',
+    universityName: 'University of Chicago',
+    country: 'USA',
+    createdAt: '2024-03-27',
+  },
+  {
+    key: '11',
+    universityName: 'Columbia University',
+    country: 'USA',
+    createdAt: '2024-03-28',
+  },
+  {
+    key: '12',
+    universityName: 'University of Michigan',
+    country: 'USA',
+    createdAt: '2024-03-29',
+  },
+  {
+    key: '13',
+    universityName: 'University of California, Los Angeles (UCLA)',
+    country: 'USA',
+    createdAt: '2024-03-30',
+  },
+  {
+    key: '14',
+    universityName: 'University of Pennsylvania',
+    country: 'USA',
+    createdAt: '2024-03-31',
+  },
+  {
+    key: '15',
+    universityName: 'Northwestern University',
+    country: 'USA',
+    createdAt: '2024-04-01',
+  },
+  {
+    key: '16',
+    universityName: 'University of Washington',
+    country: 'USA',
+    createdAt: '2024-04-02',
+  },
+  {
+    key: '17',
+    universityName: 'New York University (NYU)',
+    country: 'USA',
+    createdAt: '2024-04-03',
+  },
+  {
+    key: '18',
+    universityName: 'University of Texas at Austin',
+    country: 'USA',
+    createdAt: '2024-04-04',
+  },
+  {
+    key: '19',
+    universityName: 'University of Illinois at Urbana-Champaign (UIUC)',
+    country: 'USA',
+    createdAt: '2024-04-05',
+  },
+  {
+    key: '20',
+    universityName: 'University of Southern California (USC)',
+    country: 'USA',
+    createdAt: '2024-04-06',
+  },
+  // Remaining entries can be added similarly
+];

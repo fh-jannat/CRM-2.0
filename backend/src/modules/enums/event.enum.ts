@@ -1,0 +1,8 @@
+export enum ACTIVITY {
+  SIGNUP = 0,
+  LOGIN = 1,
+  LEAD_CREATE = 2,
+  LEAD_ASSIGN = 3,
+  REMARK = 4,
+  STATUS_CHANGE = 5,
+}
