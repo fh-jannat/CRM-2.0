@@ -25,7 +25,7 @@ CoachingclassSchema.set('toJSON', {
   transform: function (doc, ret) {
     delete ret._id; // Remove the default _id field
     delete ret.__v; // Remove the version property
-    delete ret.updatedAt; // Remove the updatedAt property
+    delete (ret as any).updatedAt; // Remove the updatedAt property
     return ret;
   },
 });
