@@ -19,6 +19,16 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
         username: configService.get<string>('PG_USER'),
         password: configService.get<string>('PG_PASSWORD'),
         database: configService.get<string>('PG_DB'),
+        ssl:
+          configService.get<string>('NODE_ENV') === 'production'
+            ? { rejectUnauthorized: false }
+            : false,
+        extra: {
+          ssl:
+            configService.get<string>('NODE_ENV') === 'production'
+              ? { rejectUnauthorized: false }
+              : false,
+        },
         entities: [__dirname + '/**/*.entity{.js,.ts}'],
         synchronize: true,
         // logging: true,
@@ -30,4 +40,3 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
   ],
 })
 export class ModulesModule {}
-
