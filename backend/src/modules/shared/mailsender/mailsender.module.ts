@@ -40,6 +40,11 @@ import { EncryptionService } from './encryption.service';
         redis: {
           host: configService.get('REDIS_HOST'),
           port: +configService.get<number>('REDIS_PORT'),
+          password: configService.get('REDIS_PASSWORD') || undefined,
+          tls:
+            configService.get('REDIS_TLS') === 'true' ? {} : undefined,
+          maxRetriesPerRequest: 3,
+          retryStrategy: (times: number) => Math.min(times * 200, 2000),
         },
       }),
       inject: [ConfigService],
